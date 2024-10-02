@@ -8,6 +8,6 @@ namespace Taylor {
 	static int N = 5;
 
 	double euler(int);
-	double sine(int);
+	double sine(double);
 	double cosine(int);
 };
