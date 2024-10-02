@@ -3,5 +3,6 @@ project(numerical_methods)
 set(
 	SOURCES
 	./src/main.cpp
+	./src/taylor.cpp
 )
 add_executable(${PROJECT_NAME} ${SOURCES})
