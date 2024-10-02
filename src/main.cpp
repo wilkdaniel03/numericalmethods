@@ -1,8 +1,8 @@
-#include "../include/util.h"
+#include "../include/taylor.h"
 #include <iostream>
 
 int main(void) {
-	std::cout << Util::factorial(5) << std::endl;
+	std::cout << Taylor::euler(1) << std::endl;
 
 	return 0;
 }
