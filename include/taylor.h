@@ -9,5 +9,5 @@ namespace Taylor {
 
 	double euler(int);
 	double sine(double);
-	double cosine(int);
+	double cosine(double);
 };

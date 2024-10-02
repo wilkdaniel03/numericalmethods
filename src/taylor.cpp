@@ -19,3 +19,13 @@ double Taylor::sine(double x) {
 	}
 	return res;
 }
+
+double Taylor::cosine(double x) {
+	double res = 0.;
+	for(int i = 0; i <= Taylor::N; i++) {
+		double upper = std::pow(-1.,i) * std::powl(x,2. * (double) i);
+		double fact = Util::factorial(2 * i);
+		res += upper / fact;
+	}
+	return res;
+}
