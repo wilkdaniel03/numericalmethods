@@ -1,7 +1,8 @@
+#include "../include/util.h"
 #include <iostream>
 
 int main(void) {
-	std::cout << "Hello numerical methods" << std::endl;
+	std::cout << Util::factorial(5) << std::endl;
 
 	return 0;
 }
